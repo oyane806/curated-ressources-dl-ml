@@ -11,14 +11,14 @@ to get familiar with mathematical notations, the hundred pages machine learning 
 
 ## random forest
 Random forests are very good for classification but cannot extrapolate.  
-:one:to get a visual intuition of how random forests work [article](http://structuringtheunstructured.blogspot.com/2017/11/coloring-with-random-forests.html)  
-:two:to code a random forest from scratch :gear::gear: [notebook](https://github.com/fastai/fastai/blob/master/courses/ml1/lesson3-rf_foundations.ipynb)  
+:one: to get a visual intuition of how random forests work [article](http://structuringtheunstructured.blogspot.com/2017/11/coloring-with-random-forests.html)  
+:two: to code a random forest from scratch :gear::gear: [notebook](https://github.com/fastai/fastai/blob/master/courses/ml1/lesson3-rf_foundations.ipynb)  
 this is a very good exercise to brush up your  coding skills and get an in-depth knowledge of how random forests work  
-:three:random forest interpretation :star::star::star: (tree variance feature importance, partial dependence, tree interpreter) [article](https://medium.com/usf-msds/intuitive-interpretation-of-random-forest-2238687cae45)
+:three: random forest interpretation :star::star::star: (tree variance feature importance, partial dependence, tree interpreter) [article](https://medium.com/usf-msds/intuitive-interpretation-of-random-forest-2238687cae45)
 
 ## time-series
-:one:great practical repo to get SOTA results quickly :star::star [notebooks](https://github.com/timeseriesAI/timeseriesAI)  
-:two:quick walk through different time-series predictions methods (neural net, cnn, lstm, cnn-lstm, encoder-decoder lstm) [article](https://machinelearningmastery.com/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
+:one: great practical repo to get SOTA results quickly :star::star: [notebooks](https://github.com/timeseriesAI/timeseriesAI)  
+:two: quick walk through different time-series predictions methods (neural net, cnn, lstm, cnn-lstm, encoder-decoder lstm) [article](https://machinelearningmastery.com/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
 
 #### SOTA algorithms
 2017 hive-cote: ensemble of 37 classifiers (no neural net)  
