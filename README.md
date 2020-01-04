@@ -24,4 +24,11 @@ this is a very good exercise to brush up your  coding skills and get an in-depth
 2017 hive-cote: ensemble of 37 classifiers (no neural net)  
 2019 rocket: using random convolutional kernels [paper](https://arxiv.org/pdf/1910.13051)
 
-## cnn (coming soon)
+## cnn (in progress)
+
+| year | model | size | top-1 accuracy | top-5 accuracy | parameters | depth |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2012 | [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) |  |  |  |  |  |
+| 2014 | [VGG16](https://arxiv.org/abs/1409.1556) | 528MB | 0.713 | 0.901 | 138,357,544 | 23 |
+| 2015 | [InceptionV3/GoogleNet](https://arxiv.org/abs/1409.4842) | 92MB | 0.779 | 0.937 | 23,851,784 | 159 |
+| 2015 | [ResNet50](https://arxiv.org/abs/1512.03385) | 98MB | 0.749 | 0.921 | 25,636,712 |  |
