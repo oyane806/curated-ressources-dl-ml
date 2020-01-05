@@ -16,6 +16,13 @@ Random forests are very good for classification but cannot extrapolate.
 this is a very good exercise to brush up your  coding skills and get an in-depth knowledge of how random forests work  
 :three: random forest interpretation :star::star::star: (tree variance feature importance, partial dependence, tree interpreter) [article](https://medium.com/usf-msds/intuitive-interpretation-of-random-forest-2238687cae45)
 
+## neural nets
+
+- **activation functions**: tanh, relu, leaky relu, sigmoid, softmax
+- **initialization**: He initialization, Xavier initialization
+- **regularization**: L2, L1, dropout, data augmentation, early stopping
+- **optimization**: batch gradient descent or vanilla gradient descent, stochastic gradient deschent, mini batch gradient descent, gradient descent with momentum, RMS prop, Adam optimization, learning rate decay, batch normalization
+
 ## time-series
 :one: great practical repo to get SOTA results quickly :star::star: [notebooks](https://github.com/timeseriesAI/timeseriesAI)  
 :two: quick walk through different time-series predictions methods (neural net, cnn, lstm, cnn-lstm, encoder-decoder lstm) [article](https://machinelearningmastery.com/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
@@ -26,9 +33,11 @@ this is a very good exercise to brush up your  coding skills and get an in-depth
 
 ## cnn (in progress)
 
+- filter, padding, stride, convolution, pooling (max, average), fully connected layer
+
 | year | model | size | top-1 accuracy | top-5 accuracy | parameters | depth |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2012 | [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) |  |  |  |  |  |
 | 2014 | [VGG16](https://arxiv.org/abs/1409.1556) | 528MB | 0.713 | 0.901 | 138,357,544 | 23 |
 | 2015 | [InceptionV3/GoogleNet](https://arxiv.org/abs/1409.4842) | 92MB | 0.779 | 0.937 | 23,851,784 | 159 |
-| 2015 | [ResNet50](https://arxiv.org/abs/1512.03385) | 98MB | 0.749 | 0.921 | 25,636,712 |  |
+| 2015 | [ResNet50](https://arxiv.org/abs/1512.03385) :star:| 98MB | 0.749 | 0.921 | 25,636,712 |  |
