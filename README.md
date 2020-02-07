@@ -23,6 +23,9 @@ this is a very good exercise to brush up your  coding skills and get an in-depth
 - **regularization**: L2, L1, dropout, data augmentation, early stopping
 - **optimization**: batch gradient descent or vanilla gradient descent, stochastic gradient deschent, mini batch gradient descent, gradient descent with momentum, RMS prop, Adam optimization, learning rate decay, batch normalization
 
+:one: how to use cyclical learning rates for training neural networks :star: [paper](https://arxiv.org/abs/1506.01186)
+
+
 ## time-series
 :one: great practical repo to get SOTA results quickly :star::star: [notebooks](https://github.com/timeseriesAI/timeseriesAI)  
 :two: quick walk through different time-series predictions methods (neural net, cnn, lstm, cnn-lstm, encoder-decoder lstm) [article](https://machinelearningmastery.com/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
@@ -31,9 +34,11 @@ this is a very good exercise to brush up your  coding skills and get an in-depth
 2017 hive-cote: ensemble of 37 classifiers (no neural net)  
 2019 rocket: using random convolutional kernels [paper](https://arxiv.org/pdf/1910.13051)
 
-## cnn (in progress)
+## image recognition
 
 - filter, padding, stride, convolution, pooling (max, average), fully connected layer
+
+#### cnn architectures
 
 | year | model | size | top-1 accuracy | top-5 accuracy | parameters | depth |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -41,3 +46,6 @@ this is a very good exercise to brush up your  coding skills and get an in-depth
 | 2014 | [VGG16](https://arxiv.org/abs/1409.1556) | 528MB | 0.713 | 0.901 | 138,357,544 | 23 |
 | 2015 | [InceptionV3/GoogleNet](https://arxiv.org/abs/1409.4842) | 92MB | 0.779 | 0.937 | 23,851,784 | 159 |
 | 2015 | [ResNet50](https://arxiv.org/abs/1512.03385) :star:| 98MB | 0.749 | 0.921 | 25,636,712 |  |
+
+#### segmentation
+2015 unet [paper](https://arxiv.org/abs/1505.04597)
